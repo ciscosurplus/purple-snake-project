@@ -1,0 +1,11 @@
+{
+      "name": "snake",
+      "version": "1.0.0",
+      "description": "A simple snake game with a purple snake.",
+      "scripts": {
+            "dev": "vite"
+      },
+      "devDependencies": {
+            "vite": "^4.5.5"
+      }
+}

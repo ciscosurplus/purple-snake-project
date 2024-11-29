@@ -1,0 +1,31 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      flex-direction: column;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: #282c34;
+      color: white;
+    }
+
+    canvas {
+      border: 1px solid black;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #scoreDisplay {
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
